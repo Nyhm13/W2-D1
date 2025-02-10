@@ -87,4 +87,4 @@ let name1 = `john`;
 let name2 = `John`;
 console.log(  name1 === name2); /* risultato nella consola sarà falso in quanto le due stringe sono diverse tra di loro perchè hanno la j minuscola e l`altra maiuscola*/
 console.log(  name1 !== name2); /* qui abbiamo usato l`operatore not `!` per invertire il risultato reale della verifica d`ugualianza*/
-console.log(name1.toLowerCase === name2.toLowerCase) /* qui abbiamo verificato la loro ugualianza se entrambe le variabbili avessero avuto lo stesso valore di john con le minuscole*/
+console.log(name1.toLowerCase() === name2.toLowerCase()) /* qui abbiamo verificato la loro ugualianza se entrambe le variabbili avessero avuto lo stesso valore di john con le minuscole*/
